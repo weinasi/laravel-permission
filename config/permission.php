@@ -126,4 +126,5 @@ return [
 
         'store' => 'default',
     ],
+    'connection_permission' => 'mysql_spatie_permission',
 ];

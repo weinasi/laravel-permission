@@ -27,6 +27,9 @@ class Role extends Model implements RoleContract
         parent::__construct($attributes);
 
         $this->setTable(config('permission.table_names.roles'));
+        if (config('permission.connection_permission') ?? FALSE) {
+            $this->setConnection(config('permission.connection_permission'));
+        }
     }
 
     public static function create(array $attributes = [])
