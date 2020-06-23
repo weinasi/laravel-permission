@@ -1,8 +1,8 @@
 {
-    "name": "ipfsl/laravel-permission",
+    "name": "ipfsl1/laravel-permission",
     "description": "Permission handling for Laravel 5.4 to 5.8",
-    "type": "library",
     "license": "MIT",
+    "type": "project",
     "authors": [
         {
             "name": "weinasi",
